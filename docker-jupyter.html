@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link href='//fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,400italic' rel='stylesheet' type='text/css'>
+
+    <link rel="stylesheet" type="text/css" href="http://czotti.github.io/theme/stylesheet/style.min.css">
+
+  <link rel="stylesheet" type="text/css" href="http://czotti.github.io/theme/stylesheet/pygments.min.css">
+  <link rel="stylesheet" type="text/css" href="http://czotti.github.io/theme/stylesheet/font-awesome.min.css">
+
+
+
+
+
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="robots" content="" />
+
+<meta name="author" content="Clement Zotti" />
+<meta name="description" content="This is a docker container made for our lab." />
+<meta name="keywords" content="docker">
+<meta property="og:site_name" content="Clement Zotti"/>
+<meta property="og:title" content="Docker lab environment"/>
+<meta property="og:description" content="This is a docker container made for our lab."/>
+<meta property="og:locale" content="en_US"/>
+<meta property="og:url" content="http://czotti.github.io/docker-jupyter.html"/>
+<meta property="og:type" content="article"/>
+<meta property="article:published_time" content="2016-04-19 14:46:00-04:00"/>
+<meta property="article:modified_time" content="2016-04-19 14:46:00-04:00"/>
+<meta property="article:author" content="http://czotti.github.io/author/clement-zotti.html">
+<meta property="article:section" content="vitalab"/>
+<meta property="article:tag" content="docker"/>
+<meta property="og:image" content="">
+  <title>Clement Zotti &ndash; Docker lab environment</title>
+</head>
+<body>
+  <aside>
+    <div>
+      <a href="http://czotti.github.io">
+        <img src="http://czotti.github.io/theme/img/profile.png" alt="" title="">
+      </a>
+      <h1><a href="http://czotti.github.io"></a></h1>
+      <p></p>
+      <nav>
+        <ul class="list">
+          <li><a href="http://czotti.github.io/pages/About.html#About">About me</a></li>
+          <li><a href="" target="_blank"></a></li>
+        </ul>
+      </nav>
+      <ul class="social">
+        <li><a class="sc-linkedin" href="https://www.linkedin.com/in/czotti" target="_blank"><i class="fa fa-linkedin"></i></a></li>
+        <li><a class="sc-github" href="https://github.com/czotti" target="_blank"><i class="fa fa-github"></i></a></li>
+      </ul>
+    </div>
+  </aside>
+  <main>
+
+<article>
+  <header>
+    <h1 id="docker-jupyter">Docker lab environment</h1>
+    <p>Posted on Tue 19 April 2016 in <a href="http://czotti.github.io/category/vitalab.html">vitalab</a></p>
+  </header>
+  <div>
+    <p>I have made a docker container for our lab. <a href="https://hub.docker.com/r/czotti/docker_jupyter/">Here</a> the link to the docker hub. It's my first try making a usefull container so any comment and PR will be apreciated.</p>
+<p>This container does not support any GPU library right now but maybe in the future, who know.</p>
+<p>It's based on archlinux(because the official jupyter fail to build) you can write in the latest (almost) python 2 &amp; 3. The list of all the library include in it is listed on the repository.</p>
+<p>But there is a rough summary of well known library:</p>
+<ul>
+<li>scikit-learn</li>
+<li>matplotlib</li>
+<li>scikit-image</li>
+<li>pandas</li>
+<li>theano</li>
+<li>numpy</li>
+</ul>
+<p>This ones are more lab specific:</p>
+<ul>
+<li>nibabel</li>
+<li>h5py</li>
+</ul>
+<p>All this library are available from python 2 &amp; 3 inside the jupyter environment.</p>
+<p>Enjoy!</p>
+  </div>
+  <div class="tag-cloud">
+    <p>
+      <a href="http://czotti.github.io/tag/docker.html">docker</a>
+    </p>
+  </div>
+</article>
+
+    <footer>
+        <p>&copy; Clement Zotti </p>
+<p>Built using <a href="http://getpelican.com" target="_blank">Pelican</a> - <a href="https://github.com/alexandrevicenzi/flex" target="_blank">Flex</a> theme by <a href="http://alexandrevicenzi.com" target="_blank">Alexandre Vicenzi</a></p>    </footer>
+  </main>
+
+
+
+
+
+<script type="application/ld+json">
+{
+  "@context": "http://schema.org",
+  "@type": "BlogPosting",
+  "name": "Docker lab environment",
+  "headline": "Docker lab environment",
+  "datePublished": "2016-04-19 14:46:00-04:00",
+  "dateModified": "2016-04-19 14:46:00-04:00",
+  "author": {
+    "@type": "Person",
+    "name": "Clement Zotti",
+    "url": "http://czotti.github.io/author/clement-zotti.html"
+  },
+  "image": "{{ SITEURL }}/{{ THEME_STATIC_DIR }}/img/profile.png",
+  "url": "http://czotti.github.io/docker-jupyter.html",
+  "description": "This is a docker container made for our lab."
+}
+</script></body>
+</html>
